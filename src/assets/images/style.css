@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo img {
+  width: 112px;
+  height: 20px;
+}
+
+header {
+  margin-top: 10px;
+  width: 100%;
+  border-bottom: 1px solid rgb(236, 239, 241);
+  top: 0px;
+  background: rgb(255, 255, 255);
+}
+
+.header__wrapper {
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 50px;
+}
+
+ul {
+  list-style: none;
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 20px;
+}
+
+.middle__links > * {
+  border-bottom: 4px solid #ffff;
+  font-size: 14px;
+  font-family: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-weight: 500;
+  color: rgb(5, 15, 25);
+  text-align: center;
+}
+
+.middle__links > :hover {
+  cursor: pointer;
+  border-bottom: 4px solid rgb(22, 82, 240);
+}
+
+.auth__links {
+  display: flex;
+  align-items: center;
+}
+
+.get__started {
+  background-color: rgb(22, 82, 240);
+  padding: 0 12px;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+  max-height: 40px;
+  display: flex;
+  align-items: center;
+  font-family: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  cursor: pointer;
+}
+
+.signin {
+  font-family: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-weight: 500;
+  color: rgb(5, 15, 25);
+  text-align: center;
+  cursor: pointer;
+}
+
+.signin:hover {
+  color: rgb(22, 82, 240);
+}
+
+/* landing css */
+
+.landing {
+  margin-top: 10px;
+}
+.landing__wrapper {
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blue_text {
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 5px;
+  color: rgb(22, 82, 240);
+  font-size: 20px;
+  font-weight: 700;
+  align-items: center;
+  display: block;
+}
+
+.blue_text a {
+  color: rgb(22, 82, 240);
+  text-decoration: none;
+}
+
+.blue_text a:hover {
+  text-decoration: underline;
+}
+
+.title {
+  color: rgb(5, 15, 25);
+  font-size: 42px;
+  font-weight: 500;
+  font-family: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.title_paragraph {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom: 32px;
+  font-family: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  color: rgb(5, 15, 25);
+}
+
+.news__letter__form {
+  width: 100%;
+}
+
+.input-email {
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(5, 15, 25);
+}
+
+.send-email-btn {
+  padding: 24px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(10, 70, 228);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+/* table css */
+
+table {
+  width: 100%;
+  padding: 0px;
+  background: rgb(255, 255, 255);
+  border-spacing: 0px;
+  border-collapse: separate;
+  text-align: left;
+}
+
+th {
+  border-top: 1px solid rgb(236, 239, 241);
+  padding: 14px 48px 14px 0px;
+  font-family: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: rgba(17, 51, 83, 0.6);
+}
+
+td {
+  padding: 14px 48px 14px 0px;
+  border-top: 1px solid rgb(236, 239, 241);
+  cursor: pointer;
+  min-width: 140px;
+}
+
+.table__wrapper {
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-name {
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 2px;
+  align-items: center;
+}
+
+.table-name img {
+  width: 30px;
+}
+
+.table-crypto-name {
+  font-family: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  color: rgb(5, 15, 25);
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.table-crypto-symbol {
+  color: rgba(17, 51, 83, 0.6);
+}
+
+.table-btn {
+  padding: 12px 16px;
+  font-size: 14px;
+  background-color: rgb(5, 177, 105);
+  cursor: pointer;
+  border: none;
+  color: #fff;
+}
