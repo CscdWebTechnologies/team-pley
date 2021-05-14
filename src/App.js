@@ -1,12 +1,14 @@
-import React from "react";
-import Header from "./components/Header";
+import React from 'react'
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <div>
+    <React.Fragment>
       <Header />
-    </div>
-  );
-};
+      <Footer />
+    </React.Fragment>
+  )
+}
 
-export default App;
+export default App
