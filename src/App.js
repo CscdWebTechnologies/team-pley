@@ -1,4 +1,5 @@
 import React from "react";
+import BlueBanner from "./components/BlueBanner";
 import Header from "./components/Header";
 import SpaceBanner from "./components/SpaceBanner";
 import Table from "./components/Table";
@@ -9,6 +10,7 @@ const App = () => {
     <div>
       <Header />
       <Table />
+      <BlueBanner />
       <SpaceBanner />
     </div>
   );
