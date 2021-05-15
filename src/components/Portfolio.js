@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/portfolio.css";
+import "../assets/styles/portfolio.css";
 import mobile from "../assets/images/mobile.svg";
 import vault from "../assets/images/vault.svg";
 import graph from "../assets/images/graph_icon.svg";

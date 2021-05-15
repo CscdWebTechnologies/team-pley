@@ -4,7 +4,7 @@ import eth from "../assets/images/etherum.png";
 import lite from "../assets/images/litecoin.png";
 import cash from "../assets/images/bitcoin-cash.png";
 import chart from "../assets/images/chart.png";
-import "../assets/table.css";
+import "../assets/styles/table.css";
 
 const items = [
   {
@@ -13,7 +13,7 @@ const items = [
     code: "BTC",
     price: "GHS 314,259.22",
     change: -41.86,
-    chart: chart,
+    chart,
   },
   {
     icon: eth,
@@ -21,7 +21,7 @@ const items = [
     code: "ETH",
     price: "GHS 314,654.22",
     change: -89.75,
-    chart: chart,
+    chart,
   },
   {
     icon: lite,
@@ -29,7 +29,7 @@ const items = [
     code: "LTC",
     price: "GHS 894,479.22",
     change: -59.23,
-    chart: chart,
+    chart,
   },
   {
     icon: cash,
@@ -37,7 +37,7 @@ const items = [
     code: "BCH",
     price: "GHS 6534,259.22",
     change: -44.15,
-    chart: chart,
+    chart,
   },
 ];
 

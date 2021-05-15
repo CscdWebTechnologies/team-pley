@@ -1,4 +1,5 @@
 import React from "react";
+import Accounts from "./components/Accounts";
 import BlueBanner from "./components/BlueBanner";
 import Header from "./components/Header";
 import Landing from "./components/Landing";
@@ -15,6 +16,7 @@ const App = () => {
       <Table />
       <Portfolio />
       <BlueBanner />
+      <Accounts />
       <SpaceBanner />
     </div>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/spacebanner.css";
+import "../assets/styles/spacebanner.css";
 
 const SpaceBanner = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/header.css";
+import "../assets/styles/header.css";
 import logo from "../assets/images/Consumer_Wordmark.svg";
 
 // Header component
