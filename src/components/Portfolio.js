@@ -63,8 +63,15 @@ const Portfolio = () => {
             <div className="portfolio__writeup__container">
               <h3 className="portfolio__h3">Mobile apps</h3>
               <p className="portfolio__p">
-                Stay on top of the markets with the Coinbase app for Android or
-                iOS.
+                Stay on top of the markets with the Coinbase app for{" "}
+                <a href="/" className="android__link">
+                  Android
+                </a>{" "}
+                or{" "}
+                <a href="/" className="ios__link">
+                  iOS
+                </a>
+                .
               </p>
             </div>
           </div>
