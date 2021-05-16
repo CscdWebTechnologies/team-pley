@@ -1,6 +1,6 @@
 To Bootstrap This Application,
 
-# npm clone
+# npm clone https://github.com/CscdWebTechnologies/team-pley.git
 
 clone the project to your local machine
 
