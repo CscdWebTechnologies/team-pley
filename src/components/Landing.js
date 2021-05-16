@@ -8,9 +8,13 @@ const Landing = () => {
       <div className="landing__wrapper">
         <div className="landing__writeup">
           <a href="/" class="landing_btc_arrow">
-            <i class="fab fa-btc"></i>
+            <p>
+              <i class="fab fa-btc"></i>
+            </p>
             <p>Jump Start Your Portfolio</p>
-            <i class="fas fa-arrow-right"></i>
+            <p>
+              <i class="fas fa-arrow-right"></i>
+            </p>
           </a>
           <h1 class="landing_title">
             Jump start <br /> your crypto <br /> portfolio
